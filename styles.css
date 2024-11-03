@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(29, 29, 29);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+}
+
+.widgetbackground {
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  height: 640px;
+  max-width: 360px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 20px 2px rgba(255, 255, 255, 0.212);
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+/*WIDGET1*/
+
+.widget1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #049de4 50%, #013b49);
+  border-radius: 15px;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.widget1txt > h2 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  font-size: 20px;
+}
+
+.widget1txt > p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.603);
+  margin: 0px;
+  font-size: 15px;
+}
+
+/*widget - PRODUTOS*/
+
+.widgetproduto {
+  background-color: rgb(29, 29, 29);
+  max-width: 500px;
+  min-width: none;
+  height: 60px;
+  padding: 5px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 10px 1px rgba(255, 255, 255, 0.199);
+  display: flex; /* alinhar img e txt horizontal */
+  align-items: center; /* alinhar img e txt vertical */
+}
+
+.widgetproduto:hover {
+  background-color: rgba(255, 255, 255, 0.247);
+}
+
+picture > .imgwidget {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.txt {
+  font-size: medium;
+  margin: 0 auto;
+  padding-right: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+/*Botão Ver Todos*/
+
+.buttom {
+  background-color: rgb(29, 29, 29);
+  margin-top: 0px;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.buttom:hover {
+  background-color: rgba(255, 255, 255, 0.247);
+}
